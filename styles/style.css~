@@ -1,0 +1,35 @@
+:root {
+    --dark: #4e4b44;
+    --bg: #ccc6b0;
+    --button: aea794;
+}
+
+body {
+    background-color: var(--bg);
+}
+
+button, input, select, textarea {
+    font-family: arial;
+    font-size: 22px;
+    background-color: var(--button);
+    border: 1px solid var(--bg);
+    color: var(--dark);
+    padding: 2px 2px 2px 2px;
+}
+
+.text {
+    font-family: arial;
+    font-size: 24px;
+    color: var(--dark)
+}
+
+#results {
+    width: 50%;
+    height: 50%;
+    background-color: var(--button);
+    color: var(--dark);
+    border: 1px solid var(--bg);
+    overflow-y: scroll;
+    padding: 2px 2px 2px 2px;
+}
+
