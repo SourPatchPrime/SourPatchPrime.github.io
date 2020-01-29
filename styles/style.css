@@ -1,11 +1,12 @@
 :root {
     --dark: #4e4b44;
     --bg: #ccc6b0;
-    --button: aea794;
+    --button: #aea794;
 }
 
 body {
-    background-color: var(--bg);
+    background-image: url("bg.png");
+    background-repeat: repeat;
 }
 
 button, input, select, textarea {
