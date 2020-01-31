@@ -18,6 +18,10 @@ button, input, select, textarea {
     padding: 2px 2px 2px 2px;
 }
 
+button {
+	cursor: pointer;
+}
+
 a {
 	text-decoration: none;
 }
