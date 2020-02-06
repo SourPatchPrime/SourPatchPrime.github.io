@@ -5,8 +5,8 @@
 }
 
 body {
-    background-image: url("../images/bg.png");
-	background-repeat: repeat;
+    /* background-image: url("../images/bg.png");
+	background-repeat: repeat; */
 }
 
 button, input, select, textarea {
@@ -23,7 +23,7 @@ button {
 }
 
 a {
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 .text {

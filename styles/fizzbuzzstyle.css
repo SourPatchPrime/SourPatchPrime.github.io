@@ -25,8 +25,8 @@ button, input, select, textarea {
 }
 
 #results {
-    width: 40%;
-    height: 50%;
+    width: 30%;
+    height: 80%;
     background-color: var(--button);
     color: var(--dark);
     border: 1px solid var(--bg);
